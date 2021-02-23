@@ -14,7 +14,18 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="reqAuth()">Request Auth</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="getData()">Get Data</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="setData()">Set Data</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </div>
 </ion-content>
