@@ -1,0 +1,7 @@
+{
+  "name": "test-plugin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
