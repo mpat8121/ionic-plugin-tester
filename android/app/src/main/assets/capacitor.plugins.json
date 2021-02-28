@@ -1,0 +1,10 @@
+[
+	{
+		"pkg": "capacitor-plugin-filesharer",
+		"classpath": "com.interapptive.filesharer.FileSharerPlugin"
+	},
+	{
+		"pkg": "capacitor-plugin-health",
+		"classpath": "com.interapptive.plugins.health.HealthPlugin"
+	}
+]

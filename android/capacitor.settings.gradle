@@ -3,7 +3,7 @@ include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
 
 include ':capacitor-plugin-filesharer'
-project(':capacitor-plugin-filesharer').projectDir = new File('../node_modules/capacitor-plugin-filesharer/android')
+project(':capacitor-plugin-filesharer').projectDir = new File('../../capacitor-plugin-filesharer/android')
 
 include ':capacitor-plugin-health'
-project(':capacitor-plugin-health').projectDir = new File('../node_modules/capacitor-plugin-health/android')
+project(':capacitor-plugin-health').projectDir = new File('../../capacitor-plugin-health/android')
