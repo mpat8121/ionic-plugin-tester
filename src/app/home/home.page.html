@@ -1,8 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> Blank </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -26,10 +24,29 @@
           <ion-button (click)="setData()">Set Data</ion-button>
         </ion-col>
         <ion-col>
+          <ion-button (click)="shareMultiple()">Share Many Files</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
           <ion-button (click)="share()">Share File</ion-button>
         </ion-col>
         <ion-col>
-          <ion-button (click)="shareMultiple()">Share Many Files</ion-button>
+          <ion-button (click)="shareNull()">Share Null</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="shareEmpty()">Share Empty</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="shareMultiple()">Share Many File</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="shareMultipleNull()">Share Many Null</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="shareMultipleEmpty()">Share Many Empty</ion-button>
         </ion-col>
       </ion-row>
     </ion-grid>
